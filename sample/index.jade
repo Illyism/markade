@@ -1,10 +1,10 @@
 doctype html
 html
   head
-    title #{title}
+    title #{$.title}
     link(rel="stylesheet", href="css/style.css", type="text/css")
   body
     .container
-      h1 Hey there!
+      h1 #{$.title}
       != html
     script(type="text/javascript", src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js")

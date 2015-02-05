@@ -7,7 +7,6 @@ program
 
 program
   .command('init [directory]')
-  .alias("setup")
   .description('Initialize a markade directory')
   .action(function(directory, options){
     require("./lib/init")(directory, options);
@@ -22,7 +21,6 @@ program
 
 program
   .command('compile [directory]')
-  .alias("setup")
   .description('Compiles a markade directory')
   .action(function(directory, options){
     require("./lib/compile")(directory, options);
@@ -33,6 +31,27 @@ program
     console.log('    $ markade compile ~/blog/');
     console.log('    $ markade compile /var/www/blog/');
     console.log();
+  })
+
+program
+  .command('server [directory]')
+  .alias("watch")
+  .description('Watches for changes and sets up a dev server')
+  .option("-p --port <port>", "Sets the port", parseInt)
+  .action(function(directory, options){
+    require("./lib/watch")(directory, options);
+  }).on("--help", function() {
+    console.log('  Examples:');
+    console.log();
+    console.log('    $ markade server .');
+    console.log('    $ markade server -p 8080 /var/www/blog/');
+    console.log();
+  })
+
+program
+  .command('*')
+  .action(function(directory, options){
+    program.help()
   })
 
 program.parse(process.argv);
