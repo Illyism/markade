@@ -1,16 +1,9 @@
 {
   "name": "markade",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Yaml + Markdown + Jade Static Site Generator",
   "keywords": [
-    "front-end"
-    "development"
-    "tool"
-    "static"
-    "jade"
-    "markdown"
-    "http"
-    "cli"
+    "front-end", "development", "tool", "static", "jade", "markdown", "http", "cli"
   ],
   "author": "Ilias Ismanalijev",
   "main": "index.js",
@@ -31,6 +24,7 @@
     "commander": "^2.6.0",
     "jade": "^1.9.1",
     "meta-marked": "^0.3.3",
+    "markade-server": "*",
     "q": "^1.1.2"
   }
 }
