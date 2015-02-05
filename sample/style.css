@@ -1,0 +1,25 @@
+body {
+  font-family: "Helvetica", "Arial", sans-serif;
+  background: #2C3E50;
+  color: rgba(255, 255, 255, .9);
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 75vh;
+}
+
+a {
+  color: rgba(255, 255, 255, 1);
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.container {
+  padding: 1em 2em;
+  border: 2px solid rgba(255,255,255, 0.03);
+  border-top: 1px dashed rgba(255,255,255, 0.5);
+  background: rgba(255, 255, 255, 0.03);
+  box-shadow: 0px 1px 1px rgba(0,0,0, .5);
+  min-width: 320px;
+}
