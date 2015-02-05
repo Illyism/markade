@@ -1,0 +1,15 @@
+{
+  "name": "markade",
+  "version": "0.0.1",
+  "description": "Yaml + Markdown and Jade Static Site Generator",
+  "main": "index.js",
+  "author": "Ilias Ismanalijev",
+  "license": "GPLv3",
+  "dependencies": {
+    "async": "^0.9.0",
+    "commander": "^2.6.0",
+    "jade": "^1.9.1",
+    "meta-marked": "^0.3.3",
+    "q": "^1.1.2"
+  }
+}
