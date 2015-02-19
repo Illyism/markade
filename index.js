@@ -1,1 +1,1 @@
-module.exports = require("./markade")
+module.exports = require("./lib/compile");

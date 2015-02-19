@@ -1,6 +1,6 @@
 {
   "name": "markade",
-  "version": "0.0.9",
+  "version": "0.1.0",
   "description": "Yaml + Markdown + Jade Static Site Generator",
   "keywords": [
     "front-end",
@@ -12,11 +12,17 @@
     "http",
     "cli"
   ],
-  "author": "Ilias Ismanalijev",
-  "main": "index.js",
-  "bin": {
-    "markade": "./markade.js"
+  "homepage": "http://markade.il.ly",
+  "bugs": {
+    "url": "https://github.com/illyism/markade/issues"
   },
+  "author": {
+    "name": "Ilias Ismanalijev",
+    "email": "hello@illyism.com",
+    "url": "http://il.ly"
+  },
+  "main": "./lib/render.js",
+  "bin": "./bin/markade.js",
   "engines": {
     "node": ">=0.8.0"
   },
@@ -25,7 +31,7 @@
     "url": "https://github.com/illyism/markade.git"
   },
   "preferGlobal": true,
-  "license": "GPLv3",
+  "license": "MIT",
   "dependencies": {
     "async": "^0.9.0",
     "commander": "^2.6.0",
