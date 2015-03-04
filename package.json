@@ -1,6 +1,6 @@
 {
   "name": "markade",
-  "version": "0.3.1",
+  "version": "0.4.0",
   "description": "Yaml + Markdown + Jade Static Site Generator",
   "keywords": [
     "front-end",
