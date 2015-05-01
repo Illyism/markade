@@ -1,4 +1,4 @@
-# Markade
+![](http://i.il.ly/markade-black.png markade)
 
 This is a static site generator that combines [Jade](http://jade-lang.com), [Markdown](https://help.github.com/articles/markdown-basics/) and [YAML](http://www.yaml.org/).
 
