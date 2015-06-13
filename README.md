@@ -1,11 +1,15 @@
-![](http://i.il.ly/markade-black.png)
+<h1 align="center">
+  <br>
+  <img width="450" src="http://i.il.ly/markade-black.png" alt="markade">
+  <br>
+  <br>
+</h1>
 
-This is a static site generator that combines [Jade](http://jade-lang.com), [Markdown](https://help.github.com/articles/markdown-basics/) and [YAML](http://www.yaml.org/).
+**A static site generator using [Jade](http://jade-lang.com), [Markdown](https://help.github.com/articles/markdown-basics/) and [YAML](http://www.yaml.org/)**
 
 
 ## Installation
 
-You need node.js and npm.
 
 ```bash
   npm install -g markade
@@ -15,9 +19,9 @@ You need node.js and npm.
 
 ```bash
   markade -h
-    init [directory]                    Initialize a markade directory
-    compile [directory]                 Compiles a markade directory
-    server|watch [options] [directory]  Watches for changes and sets up a dev server
+    init [directory]                Initialize a markade directory
+    compile [directory]             Compiles a markade directory
+    watch [options] [directory]     Watches for changes and sets up a dev server
 ```
 
 ### Init
