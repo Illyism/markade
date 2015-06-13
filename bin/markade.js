@@ -4,7 +4,7 @@ var program = require('commander');
 var pkg = require("../package.json");
  
 program
-  .version(pkg.version)
+  .version(pkg.version);
 
 program
   .command('init [directory]')
@@ -19,7 +19,7 @@ program
     console.log('    $ markade init ~/blog/');
     console.log('    $ markade init /var/www/blog/');
     console.log();
-  })
+  });
 
 program
   .command('compile [directory]')
@@ -34,7 +34,7 @@ program
     console.log('    $ markade compile ~/blog/');
     console.log('    $ markade compile /var/www/blog/');
     console.log();
-  })
+  });
 
 program
   .command('server [directory]')
@@ -50,12 +50,12 @@ program
     console.log('    $ markade server .');
     console.log('    $ markade server -p 8080 /var/www/blog/');
     console.log();
-  })
+  });
 
 program
   .command('*')
   .action(function(){
-    program.help()
-  })
+    program.help();
+  });
 
 program.parse(process.argv);
