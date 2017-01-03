@@ -5,7 +5,7 @@
   <br>
 </h1>
 
-**A static site generator using [Jade](http://jade-lang.com), [Markdown](https://help.github.com/articles/markdown-basics/) and [YAML](http://www.yaml.org/)**
+**A static site generator using [Pug](https://github.com/pugjs/pug), [Markdown](https://help.github.com/articles/markdown-basics/) and [YAML](http://www.yaml.org/)**
 
 
 ## Installation

@@ -1,13 +1,14 @@
 {
   "name": "markade",
-  "version": "0.4.2",
-  "description": "Yaml + Markdown + Jade Static Site Generator",
+  "version": "1.0.0",
+  "description": "Yaml + Markdown + Pug Static Site Generator",
   "keywords": [
     "front-end",
     "development",
     "tool",
     "static",
     "jade",
+    "pug",
     "markdown",
     "http",
     "cli"
@@ -35,11 +36,11 @@
   "dependencies": {
     "async": "^0.9.0",
     "commander": "^2.6.0",
-    "jade": "^1.9.1",
     "js-yaml": "^3.2.6",
     "markade-server": "*",
     "marked": "^0.3.3",
     "mkdirp": "^0.5.0",
+    "pug": "^2.0.0-beta6",
     "q": "^1.1.2"
   }
 }
