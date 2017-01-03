@@ -1,6 +1,6 @@
 {
   "name": "markade",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Yaml + Markdown + Pug Static Site Generator",
   "keywords": [
     "front-end",
