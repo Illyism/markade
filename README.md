@@ -47,4 +47,4 @@
 
 ## License
 
-MIT © [Ilias Ismanalijev](http://il.ly)
+MIT © [illyism](http://il.ly)
