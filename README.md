@@ -1,6 +1,6 @@
 <h1 align="center">
   <br>
-  <img width="450" src="http://i.il.ly/markade-black.png" alt="markade">
+  <img width="450" src="[http://i.il.ly/markade-black.png](https://github.com/Illyism/markade/assets/304283/60ef3113-3de3-4aab-b5f5-12e16b67ed82)" alt="markade">
   <br>
   <br>
 </h1>
